@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in `seq 1 10`;
+    do
+        nodes = 10 * i
+        python3 first_network.py i
+    done
